@@ -1,0 +1,30 @@
+{
+  "name": "dov-http-mini",
+  "version": "0.1.2",
+  "description": "Dov is a request tool, based on axios experise at WeChat Miniprogram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:mac": "export NODE_ENV=production&&webpack",
+    "build:win": "set NODE_ENV=production&&webpack",
+    "dev:mac": "export NODE_ENV=development&&webpack --watch",
+    "dev:win": "set NODE_ENV=development&&webpack --watch"
+  },
+  "keywords": ["http", "miniprogram", "axios", "https", "request"],
+  "author": "Hot_Pot_Leo",
+  "license": "MIT",
+  "browserslist": "> 0.25%, not dead",
+  "babel": {
+    "presets": [
+      [ "@babel/preset-env", { "useBuiltIns": "entry" } ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
