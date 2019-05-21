@@ -4,7 +4,7 @@
 
 ## 引入到项目中
 
-- 第一步， npm i dov-http
+- 第一步， npm i dov-http-mini
 - 第二步， 复制 dist 目录下的 dov.min.js 到项目中
 - 第三步， ` import dov from './libs/dov.min.js' `
 
