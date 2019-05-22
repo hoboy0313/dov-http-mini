@@ -105,14 +105,14 @@ dov('http://www.baidu.com/getUserInfo', {
 - TRACE,
 - CONNECT
 
-###### axios.get(url[, config])
-###### axios.post(url[, config])
-###### axios.put(url[, config])
-###### axios.delete(url[, config])
-###### axios.options(url[, config])
-###### axios.head(url[, config])
-###### axios.tracce(url[, config])
-###### axios.connect(url[, config])
+###### dov.get(url[, config])
+###### dov.post(url[, config])
+###### dov.put(url[, config])
+###### dov.delete(url[, config])
+###### dov.options(url[, config])
+###### dov.head(url[, config])
+###### dov.tracce(url[, config])
+###### dov.connect(url[, config])
 
 ## 创建实例
 > 可能需要多个实例来操作时，可以通过 create 方法来实现。
