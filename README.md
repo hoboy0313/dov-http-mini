@@ -192,5 +192,5 @@ dov.interceptors.response.use(function (response) {
 ```
 
 ## License
-***
+
 MIT
