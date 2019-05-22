@@ -111,7 +111,7 @@ dov('http://www.baidu.com/getUserInfo', {
 ###### dov.delete(url[, config])
 ###### dov.options(url[, config])
 ###### dov.head(url[, config])
-###### dov.tracce(url[, config])
+###### dov.trace(url[, config])
 ###### dov.connect(url[, config])
 
 ## 创建实例
